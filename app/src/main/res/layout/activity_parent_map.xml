@@ -1,0 +1,27 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uber.example.uber.parent.ParentMap">
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="uber.example.uber.parent.ParentMap" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#000"
+        android:textColor="#fff"
+        android:id="@+id/btnbtn"
+        android:clickable="false"
+        android:visibility="invisible"
+        android:onClick="sonAtHome"
+        android:text=" استلمت ابنى !  "
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
